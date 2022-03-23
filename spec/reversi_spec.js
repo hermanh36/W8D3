@@ -143,7 +143,7 @@ describe("Board", function () {
       expect(testBoard._positionsToFlip([4, 6], "white", [-1, 1]).length).toEqual(0);
       expect(testBoard._positionsToFlip([4, 6], "white", [-1, 0]).length).toEqual(0);
       expect(testBoard._positionsToFlip([4, 6], "white", [0, -1]).length).toEqual(0);
-      expect(testBoard._positionsToFlip([4, 6], "white", [-1, -1]).length).toEqual(0);;
+      expect(testBoard._positionsToFlip([4, 6], "white", [-1, -1]).length).toEqual(0);
       expect(testBoard._positionsToFlip([4, 6], "white", [1, 0]).length).toEqual(0);
       expect(testBoard._positionsToFlip([4, 6], "white", [1, 1]).length).toEqual(0);
       expect(testBoard._positionsToFlip([4, 6], "white", [1, -1]).length).toEqual(0);
